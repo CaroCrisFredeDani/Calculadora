@@ -34,6 +34,10 @@ function del(){
     result.value = result2.substring(0, result2.length - 1);
 }
 
+function convertMasa(){
+    window.location.href = '/convertirMasa.html';
+}
+
 /*
     ====================================================
     =================== TOGGLE THEME ===================
