@@ -23,6 +23,10 @@ function calc(){
     }
 }
 
+function cenafah(){
+    window.location.href = '/CenaaFah.html';
+}
+
 // Reset button
 function reset(){
     result.value = "";
