@@ -26,6 +26,7 @@ function calc(){
 // Reset button
 function reset(){
     result.value = "";
+    result2.value = "";
 }
 
 // Del button
