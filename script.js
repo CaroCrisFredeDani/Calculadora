@@ -39,6 +39,7 @@ function cenafah(){
 // Reset button
 function reset(){
     result.value = "";
+    result2.value = "";
 }
 
 // Del button
