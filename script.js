@@ -23,6 +23,15 @@ function calc(){
     }
 }
 
+function calccenaFah(){
+    if(result.value != ""){
+        let resultcen  = result.value;
+        result2.value = eval((resultcen*1.8)+32)
+    } else{
+        alert("Erro! Adicione valores válidos.")
+    }
+}
+
 function cenafah(){
     window.location.href = '/CenaaFah.html';
 }
