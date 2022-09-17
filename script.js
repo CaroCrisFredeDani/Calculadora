@@ -35,6 +35,9 @@ function calccenaFah(){
 function cenafah(){
     window.location.href = '/CenaaFah.html';
 }
+function atras(){
+    window.location.href = '/index.html';
+}
 
 // Reset button
 function reset(){
