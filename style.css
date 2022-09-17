@@ -56,6 +56,10 @@
     margin-top: 5px;
     transition: var(--transition);
 }
+.calc-top label{
+    color: var(--key-color-top);
+    transition: var(--transition);
+}
 .calc-top span{
     color: var(--key-color-top);
     font-size: 13px;
