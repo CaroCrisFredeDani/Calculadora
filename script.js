@@ -35,6 +35,10 @@ function del(){
     result.value = result2.substring(0, result2.length - 1);
 }
 
+function atras(){
+    window.location.href = '/index.html';
+}
+
 function convertirMasa(){
     if(result.value != ""){
         let resultcen  = result.value;
