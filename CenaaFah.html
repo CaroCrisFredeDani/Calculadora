@@ -43,21 +43,15 @@
                     <!-- Theme toggle options  -->
                     <div class="calc-top row">
 
-                        <h3 class="col-6">calc</h3>
-                        <h4 class="col-3">theme</h4>
+                        <h3 class="col-6">Centigrados a Farenheit</h3>
+                        <h4 class="col-3">tema</h4>
 
-                        <div class="col-3 toggle">
+                         <div class="col-3 toggle">
                             <div class="btn-group">
                                 <input type="range" id="btnTheme" min="1" max="3" value="1" onchange="myFunction_set(this.value);">
                             </div>
                         </div>
-
-                    </div>
-
-                    <!-- Input to put the results  -->
-                    <div class="calc-top-result row">
-                        <input type="text" class="col-12" id="result" placeholder="0" disabled></input>
-                    </div>
+                    </div>  
                 </div>
 
                 <!-- Bottom of the Calculator -->
@@ -66,37 +60,15 @@
                     <!-- All the Keys/Buttons for the Calculator Works -->
                     <div class="container">
                         <div class="row">
-                            <input class="col" type="button" value="7" onclick="input('7')">
-                            <input class="col" type="button" value="8" onclick="input('8')">
-                            <input class="col" type="button" value="9" onclick="input('9')">
-                            <input class="col" type="button" value="DEL" id="del" onclick="del()">
-                        </div>
-                        <div class="row">
-                            <input class="col" type="button" value="4" onclick="input('4')">
-                            <input class="col" type="button" value="5" onclick="input('5')">
-                            <input class="col" type="button" value="6" onclick="input('6')">
-                            <input class="col" type="button" value="+" onclick="input('+')">
-                        </div>
-                        <div class="row">
-                            <input class="col" type="button" value="1" onclick="input('1')">
-                            <input class="col" type="button" value="2" onclick="input('2')">
-                            <input class="col" type="button" value="3" onclick="input('3')">
-                            <input class="col" type="button" value="-" onclick="input('-')">
-                        </div>
-                        <div class="row">
-                            <input class="col" type="button" value="." onclick="input('.')">
-                            <input class="col" type="button" value="0" onclick="input('0')">
-                            <input class="col" type="button" value="/" onclick="input('/')">
-                            <input class="col" type="button" value="x" onclick="input('*')">
+                            <input type="text" class="col" id="result" placeholder="0"></input>
+                            <input type="text" class="col" id="result2" placeholder="0" disabled></input>  
                         </div>
                         <div class="row">
                             <input class="col" type="button" value="RESET" id="reset" onclick="reset()">
                             <input class="col" type="button" value="=" id="equals" onclick="calc()">
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>
