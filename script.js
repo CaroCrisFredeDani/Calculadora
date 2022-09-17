@@ -34,6 +34,15 @@ function del(){
     result.value = result2.substring(0, result2.length - 1);
 }
 
+function convertirMasa(){
+    if(result.value != ""){
+        let resultcen  = result.value;
+        result2.value = eval(resultcen*1000)
+    } else{
+        alert("Erro! Adicione valores válidos.")
+    }
+}
+
 function convertMasa(){
     window.location.href = '/convertirMasa.html';
 }
