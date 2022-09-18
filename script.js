@@ -6,7 +6,7 @@
 
 // get the result element
 let result  = document.getElementById("result");
-
+let dato = document.getElementById("dato1");
 // Input numbers by key pressed
 function input(num){
     let number = result.value;
@@ -40,7 +40,12 @@ function longitud(){
 }
 
 function convlong(){
-    
+    if(dato.value != ""){
+        let dato3  = dato.value;
+        dato2.value = eval(dato3*100);
+    } else{
+        alert("Erro! Adicione valores válidos.")
+    }
 }
 /*
     ====================================================
