@@ -6,7 +6,7 @@
 
 // get the result element
 let result  = document.getElementById("result");
-
+let dato = document.getElementById("dato1");
 // Input numbers by key pressed
 function input(num){
     let number = result.value;
@@ -35,9 +35,16 @@ function del(){
     result.value = result2.substring(0, result2.length - 1);
 }
 
-function atras(){
-    window.location.href = '/index.html';
+
+// Longitud
+function longitud(){
+    window.location.href = '/longitud.html';
 }
+
+function convlong(){
+    if(dato.value != ""){
+        let dato3  = dato.value;
+        dato2.value = eval(dato3*100);
 
 function convertirMasa(){
     if(result.value != ""){
@@ -48,9 +55,19 @@ function convertirMasa(){
     }
 }
 
+function resetear(){
+    dato1.value = "";
+    dato2.value = "";  
+}
+
+function atras(){
+    window.location.href = '/index.html';
+}
+
 function convertMasa(){
     window.location.href = '/convertirMasa.html';
 }
+
 
 /*
     ====================================================
