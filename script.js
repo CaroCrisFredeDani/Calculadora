@@ -45,6 +45,11 @@ function convlong(){
     if(dato.value != ""){
         let dato3  = dato.value;
         dato2.value = eval(dato3*100);
+    }else{
+            alert("Erro! Adicione valores válidos.")
+    }
+    
+}
 
 function convertirMasa(){
     if(result.value != ""){
