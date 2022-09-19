@@ -188,5 +188,15 @@ function myFunction_set(val) {
     }
 
 }
-
-
+function irTemperatura(){
+    window.location.href = '/CenaaFah.html';
+}
+function irMasa(){
+    window.location.href = '/convertirMasa.html';
+}
+function irPresion(){
+    window.location.href = '/pages/presion/presion.html';
+}
+function irLongitud(){
+    window.location.href = '/longitud.html';
+}
