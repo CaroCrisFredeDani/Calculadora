@@ -47,6 +47,15 @@ function convlong(){
         alert("Erro! Adicione valores válidos.")
     }
 }
+
+function resetear(){
+    dato1.value = "";
+    dato2.value = "";  
+}
+
+function atras(){
+    window.location.href = '/index.html';
+}
 /*
     ====================================================
     =================== TOGGLE THEME ===================
